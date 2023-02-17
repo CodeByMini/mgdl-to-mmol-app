@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NS To CSV</title>
+    <link
+      href="{{ url_for('static', path='css/style.css') }}"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="supercontainer">
+      <div class="container">
+        <form action="/files/" enctype="multipart/form-data" method="post">
+          <input name="title" id="title" type="input" />
+          <input name="timeFormat" id="timeFormat" type="input" />
+          <input name="file" id="file" type="file" multiple />
+          <p>%m-%d-%Y %I:%M %p</p>
+          <p>%Y-%m-%dT%H:%M:%S</p>
+          <input type="submit" value="Get CSV File" />
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script></script>
+</html>
