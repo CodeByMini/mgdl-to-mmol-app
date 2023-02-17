@@ -1,72 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
-body{
-    background-color: #1C1D21;
-    height: 100%;
-    width: 100%;
-    font-size: 32px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+body {
+  background-color: #1c1d21;
+  height: 100%;
+  width: 100%;
+  font-size: 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
 }
-.supercontainer{
-    background-color: #1C1D21;
-    height: 100%;
-    width: 100%;
+.supercontainer {
+  background-color: #1c1d21;
+  height: 100%;
+  width: 100%;
 }
-.container{
-    margin: auto;
-    margin-top: 40px;
-    background-color: 1C1D21;
-    border: 2px solid;
-    border-color: cornflowerblue;
-    border-radius: 5px;
-    height: auto;
-    padding: 50px;
-    width: 700px;
+.container {
+  margin: auto;
+  margin-top: 40px;
+  background-color: 1C1D21;
+  border: 2px solid;
+  border-color: cornflowerblue;
+  border-radius: 5px;
+  height: auto;
+  padding: 50px;
+  width: 700px;
 }
-label{
-    display: inline-block;
-    width: 600px;
-    
-    text-align: center;
-    color: #F1E3E4;
+label {
+  display: inline-block;
+  width: 600px;
+
+  text-align: center;
+  color: #f1e3e4;
 }
-.smallcontainer{
-    margin: auto;
-    margin-top:30px;
-    width: 600px;
-    background-color: none;
+.smallcontainer {
+  margin: auto;
+  margin-top: 30px;
+  width: 600px;
+  background-color: none;
 }
-input{
-    display: inline-block;
-    margin: auto;
-    background-color: none;
-    width: 600px;
-    height: 40px;
-    padding: 0px;
-    border:0px;
-    font-family: 'Roboto', sans-serif;
-    
+input {
+  display: inline-block;
+  margin: auto;
+  background-color: none;
+  width: 600px;
+  height: 40px;
+  padding: 0px;
+  border: 0px;
+  font-family: "Roboto", sans-serif;
 }
-input[type="text" i]{
-    font-size: 30px;
-    padding: 10px;
+input[type="text" i] {
+  font-size: 30px;
+  padding: 10px;
 }
-input[type="date" i]{
-    font-size: 30px;
-    padding: 10px;
+input[type="date" i] {
+  font-size: 30px;
+  padding: 10px;
 }
-.days{
-    text-align: center;
+.days {
+  text-align: center;
 }
 
-input[type="submit" i]{
-    background-color: #EF233C;
-    border: 2px solid;
-    border-radius: 5px;
-    border-color: #D90429;
-    height: 80px;
-    color: #F1E3E4;
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+input[type="submit" i] {
+  background-color: #ef233c;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #d90429;
+  height: 80px;
+  color: #f1e3e4;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+p {
+  color: white;
+  font-size: 13px;
 }
